@@ -50,3 +50,7 @@ Replace FILENAME' with the name you want to save the file with, ex: 'takserver-d
 `ssh root@192.168.1.1`
 
 `su - tak`
+
+9. Run installScript2.sh to complete the install
+
+``
