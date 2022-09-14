@@ -27,3 +27,10 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 `sudo chmod +x *`
 
 `./installScript1.sh`
+
+6. The first install script will now prompt you to reboot when its done, do it.
+
+8. Wait 1-2mins for the box to reboot then connect back to your VPS (replace 192.168.1.1 with your VPS Server IP)
+
+
+`ssh root@192.168.1.1`
