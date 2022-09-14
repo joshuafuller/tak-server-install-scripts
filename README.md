@@ -13,12 +13,17 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 `
 
 3. Now that we are connected to a SSH Shell as root, install git so we can clone this repo and use the scripts
+
 `sudo yum install git -y`
 
 4. Clone this repo
+
 `git clone https://github.com/atakhq/tak-server-install-scripts.git`
 
 5. Move into the scripts folder that was just cloned from github, make the script files executable, and run the first script. (linux prevents files from being executable by default for security)
+
 `cd tak-server-install-scripts/`
+
 `sudo chmod +x *`
+
 `./installScript1.sh`
