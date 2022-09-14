@@ -9,10 +9,10 @@ passwd tak
 
 #Add sudo rights, install deps
 gpasswd -a tak wheel
-sudo yum update -y
-sudo yum install unzip git nano openssl keytool-maven-plugin docker wget -y
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin$
 sudo chmod +x /usr/local/bin/docker-compose
+sudo yum update -y
+sudo yum install unzip git nano openssl keytool-maven-plugin docker wget -y
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo groupadd docker
