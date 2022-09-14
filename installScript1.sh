@@ -1,4 +1,4 @@
-echo "Run this script to begin the install process for TAK Server, it will take a while so please be patient. At the end you will $
+echo "Run this script to begin the install process for TAK Server, it will take a while so please be patient."
 read -p "Press any key to begin ..."
 
 #setup non-root user
