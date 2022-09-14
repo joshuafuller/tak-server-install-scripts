@@ -13,11 +13,17 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 `
 
 3. Now that we are connected to a SSH Shell as root, install git so we can clone this repo and use the scripts
-`adduser tak
+`
+adduser tak
+
 passwd tak
+
 gpasswd -a tak wheel
+
 sudo groupadd docker
-sudo usermod -aG docker tak`
+
+sudo usermod -aG docker tak
+`
 
 `sudo yum install git -y`
 
