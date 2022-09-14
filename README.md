@@ -28,9 +28,17 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 `./installScript1.sh`
 
+
 6. The first install script will now prompt you to reboot when its done, do it.
 
-8. Wait 1-2mins for the box to reboot then connect back to your VPS (replace 192.168.1.1 with your VPS Server IP)
+7. Wait 1-2mins for the box to reboot then transfer over your tak docker zip file aquired from tak.gov. RUN THIS SCRIPT FROM YOUR LOCAL MACHINE
+
+`./transferTakServerZipLocal.sh`
+
+
+8. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
 
 
 `ssh root@192.168.1.1`
+
+`su - tak`
