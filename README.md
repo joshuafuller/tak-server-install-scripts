@@ -37,11 +37,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 7b. Alternatively, you can run this command inside '~/tak-zip/' on your TAK Server to download the file from google drive (much faster). 
 
-Replace '<FILEID>' with the file id string from the google drive URL in your browser.
+Replace 'FILEID' with the file id string from the google drive URL in your browser.
   
-Replace '<FILENAME>' with the name you want to save the file with, ex: 'takserver-docker-4.7-RELEASE-20.zip'
+Replace FILENAME' with the name you want to save the file with, ex: 'takserver-docker-4.7-RELEASE-20.zip'
 
-`sudo wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=<FILEID>' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=<FILEID>" -O <FILENAME> && rm -rf /tmp/cookies.txt`
+`sudo wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt`
 
 
 8. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
