@@ -19,7 +19,7 @@ sudo groupadd docker
 sudo usermod -aG docker tak
 sudo mkdir /home/tak/tak-zip
 #copy the install script 2 into tak user folder so we can run it later
-sudo cp tak-server-install-scripts/ /home/tak/
+sudo cp /tak-server-install-scripts/ /home/tak/
 sudo chown tak:tak /home/tak/tak-server-install-scripts
 
 #tell user to reboot now and run script 2
