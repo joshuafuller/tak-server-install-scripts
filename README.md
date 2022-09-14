@@ -5,7 +5,7 @@
 
 `ssh root@192.168.1.1`
 
-When prompted, type 'yes' and hit enter to accept your servers ssh 
+When prompted, type 'yes' and hit enter to accept your servers ECDSA key fingerprint:
 
 `The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
 ECDSA key fingerprint is SHA256:hjgYgfUYTrfdTglkjhHNjlkhIUGYtyfrftyuGUIil.
