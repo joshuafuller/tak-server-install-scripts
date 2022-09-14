@@ -1,7 +1,13 @@
+echo "***********************************************************************"
+echo "***********************************************************************"
+echo " "
 echo "MAKE SURE YOU ARE RUNNING THIS UNDER TAK USER WITH SU PRIVS: 'su - tak'"
 echo " "
+echo "***********************************************************************"
+echo "***********************************************************************"
 
 echo "This script will begin the install of TAK Server"
+echo " "
 read -p "Press any key to begin ..."
 
 echo "Cloning CloudRF Github Docker Install Project..."
