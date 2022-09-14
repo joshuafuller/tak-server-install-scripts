@@ -53,4 +53,4 @@ Replace FILENAME' with the name you want to save the file with, ex: 'takserver-d
 
 9. Run installScript2.sh to complete the install
 
-``
+`./installScript2.sh`
