@@ -18,7 +18,8 @@ sudo systemctl enable docker
 sudo groupadd docker
 sudo usermod -aG docker tak
 sudo mkdir /home/tak/tak-zip
-
+#copy the install script 2 into tak user folder so we can run it later
+sudo cp tak-server-install-scripts/ /home/tak/
 
 #tell user to reboot now and run script 2
 echo "=================================================================="
