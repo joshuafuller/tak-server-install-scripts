@@ -12,7 +12,7 @@ ECDSA key fingerprint is SHA256:hjgYgfUYTrfdTglkjhHNjlkhIUGYtyfrftyuGUIil.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 `
 
-3. Now that we are connected to a SSH Shell as root, install git so we can clone this repo and use the scripts
+3. Now that we are connected to a SSH Shell as root you will need to create the tak user and install git so we can clone this repo and use the scripts.
 
 `adduser tak`
 
@@ -58,10 +58,9 @@ Replace FILENAME' with the name you want to save the file with, ex: 'takserver-d
 8. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
 
 
-`ssh root@192.168.1.1`
+`ssh tak@192.168.1.1`
 
-`su - tak`
 
 9. Run installScript2.sh to complete the install
 
-`./installScript2.sh`
+`. installScript2.sh`
