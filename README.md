@@ -12,26 +12,12 @@ ECDSA key fingerprint is SHA256:hjgYgfUYTrfdTglkjhHNjlkhIUGYtyfrftyuGUIil.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 `
 
-3. Now that we are connected to a SSH Shell as root you will need to create the tak user and install git so we can clone this repo and use the scripts.
 
-`adduser tak`
-
-`passwd tak`
-
-`usermod -aG sudo tak`
-
-`sudo groupadd docker`
-
-`sudo usermod -aG docker tak`
-
-
-`sudo apt-get install git -y`
-
-4. Clone this repo
+3. Clone this repo
 
 `git clone https://github.com/atakhq/tak-server-install-scripts.git`
 
-5. Move into the scripts folder that was just cloned from github, make the script files executable, and run the first script. (linux prevents files from being executable by default for security)
+4. Move into the scripts folder that was just cloned from github, make the script files executable, and run the first script. (linux prevents files from being executable by default for security)
 
 `cd tak-server-install-scripts/`
 
@@ -40,13 +26,12 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 `./installScript1.sh`
 
 
-6. The first install script will now prompt you to reboot when its done, do it.
-
-7a. Wait 1-2mins for the box to reboot then transfer over your tak docker zip file aquired from tak.gov. RUN THIS SCRIPT FROM YOUR LOCAL MACHINE
+5. The first install script will now prompt you to reboot when its done, do it.
+6a. Wait 1-2mins for the box to reboot then transfer over your tak docker zip file aquired from tak.gov. RUN THIS SCRIPT FROM YOUR LOCAL MACHINE
 
 `./transferTakServerZipLocal.sh`
 
-7b. Alternatively, you can run this command inside '~/tak-zip/' on your TAK Server to download the file from google drive (much faster). 
+6b. Alternatively, you can run this command inside '~/tak-zip/' on your TAK Server to download the file from google drive (much faster). 
 
 Replace 'FILEID' with the file id string from the google drive URL in your browser.
   
@@ -55,12 +40,12 @@ Replace FILENAME' with the name you want to save the file with, ex: 'takserver-d
 `sudo wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt`
 
 
-8. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
+7. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
 
 
 `ssh tak@192.168.1.1`
 
 
-9. Run installScript2.sh to complete the install
+8. Run installScript2.sh to complete the install
 
 `. installScript2.sh`
