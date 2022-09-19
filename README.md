@@ -1,6 +1,6 @@
 # tak-server-install-scripts
 
-1. Buy a VPS from somewhere online - CENT OS 7 
+1. Buy a VPS from somewhere online - UBUNTU 20.04LTS
 2. SSH into the VPS as root (replace 192.168.1.1 with your VPS Server IP)
 
 `ssh root@192.168.1.1`
@@ -18,14 +18,14 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 `passwd tak`
 
-`gpasswd -a tak wheel`
+`usermod -aG sudo tak`
 
 `sudo groupadd docker`
 
 `sudo usermod -aG docker tak`
 
 
-`sudo yum install git -y`
+`sudo apt-get install git -y`
 
 4. Clone this repo
 
