@@ -8,7 +8,7 @@ sudo yum -y install epel-release
 sudo yum repolist
 sudo yum install dpkg-devel dpkg-dev -y
 sudo yum update -y
-sudo yum install unzip git nano openssl keytool-maven-plugin docker wget -y
+sudo yum install unzip wget git nano openssl docker net-tools -y
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo groupadd docker
