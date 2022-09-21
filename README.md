@@ -1,4 +1,5 @@
-# tak-server-install-scripts
+# TAK Server 15min Install Script Package
+## You should be able to get a TAK server up and running within 15mins of starting these scripts (assuming you already have the TAK Server ZIP downloaded and stored on google drive or your local machine)
 
 1. Buy a VPS from somewhere online - UBUNTU 20.04LTS
 
