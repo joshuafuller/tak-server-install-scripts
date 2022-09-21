@@ -36,6 +36,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 `ssh tak@192.168.1.1`
 
+`su - tak`
+
 
 7. Run installScript2.sh to complete the install
 
