@@ -1,6 +1,7 @@
 # tak-server-install-scripts
 
 1. Buy a VPS from somewhere online - UBUNTU 20.04LTS
+
 2. SSH into the VPS as root (replace 192.168.1.1 with your VPS Server IP)
 
 `ssh root@192.168.1.1`
@@ -12,10 +13,10 @@ ECDSA key fingerprint is SHA256:hjgYgfUYTrfdTglkjhHNjlkhIUGYtyfrftyuGUIil.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 `
 
-
 3. Clone this repo
 
 `git clone https://github.com/atakhq/tak-server-install-scripts.git`
+
 
 4. Move into the scripts folder that was just cloned from github, make the script files executable, and run the first script. (linux prevents files from being executable by default for security)
 
@@ -27,25 +28,14 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 
 5. The first install script will now prompt you to reboot when its done, do it.
-6a. Wait 1-2mins for the box to reboot then transfer over your tak docker zip file aquired from tak.gov. RUN THIS SCRIPT FROM YOUR LOCAL MACHINE
-
-`./transferTakServerZipLocal.sh`
-
-6b. Alternatively, you can run this command inside '~/tak-zip/' on your TAK Server to download the file from google drive (much faster). 
-
-Replace 'FILEID' with the file id string from the google drive URL in your browser.
-  
-Replace FILENAME' with the name you want to save the file with, ex: 'takserver-docker-4.7-RELEASE-20.zip'
-
-`sudo wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=FILEID" -O FILENAME && rm -rf /tmp/cookies.txt`
 
 
-7. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
+6. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
 
 
 `ssh tak@192.168.1.1`
 
 
-8. Run installScript2.sh to complete the install
+7. Run installScript2.sh to complete the install
 
 `. installScript2.sh`
