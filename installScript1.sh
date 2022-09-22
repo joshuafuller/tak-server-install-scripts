@@ -2,7 +2,7 @@ echo "Run this script to begin the install process for TAK Server, it will take 
 read -p "Press any key to begin ..."
 
 adduser tak
-passwd tak
+#passwd tak
 
 usermod -aG sudo tak
 sudo apt-get update -y
