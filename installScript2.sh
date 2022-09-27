@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "MAKE SURE YOU ARE RUNNING THIS UNDER TAK USER WITH SU PRIVS: 'su - tak'"
 echo " "
 
