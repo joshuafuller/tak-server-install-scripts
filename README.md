@@ -12,13 +12,8 @@
 2. Move into the scripts folder that was just cloned from github, make the script files executable, and run the local install script. 
 (linux prevents files from being executable by default for security)
 
-`cd tak-server-install-scripts/ && sudo chmod +x *`
+`cd tak-server-install-scripts/ && sudo chmod +x * && sudo ./localInstallScript.sh`
 
-Normal Install Script:
-`sudo ./localInstallScript.sh`
-
-RPI/BPI Install Script:
-`sudo ./localInstallScriptARM.sh`
 
 
 
