@@ -30,17 +30,18 @@ sudo usermod -aG docker tak
 
 echo " "
 echo "Cloning CloudRF Github Docker Install Project..."
-cd ~
+cd /home/tak/
 git clone https://github.com/Cloud-RF/tak-server.git
 
 echo " "
 echo "Done, updating script permissions"
+sudo chown -R tak:tak /home/tak/*
 sudo chmod +x ~/tak-server/scripts/setup.sh
 
-cd ~/tak-server
+cd /home/tak/tak-server
 echo " "
 echo "*********************************************************************************************"
-echo "Please move your tak server zip file into ($pwd), then press enter to start the install"
+echo "Please move your tak server zip file into $(pwd), then press enter to start the install"
 echo "*********************************************************************************************"
 read RUNME
 
