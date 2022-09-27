@@ -17,7 +17,7 @@
 
 
 
-# SERVER INSTALL (CLOUD) (Ubuntu 20.04 / CentOS7)
+# SERVER INSTALL (CLOUD) (Ubuntu 20.04)
 
 1. Buy a VPS from somewhere online - UBUNTU 20.04LTS
 
