@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Run this script to begin the install process LOCALLY for TAK Server, it will take a while so please be patient."
 read -p "Press any key to begin ..."
 
