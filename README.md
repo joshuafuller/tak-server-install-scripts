@@ -19,6 +19,7 @@
 
 
 
+
 # SERVER INSTALL (CLOUD)
 
 1. Buy a VPS from somewhere online - UBUNTU 20.04LTS
