@@ -37,7 +37,7 @@ sudo chmod +x ~/tak-server/scripts/setup.sh
 
 cd ~/tak-server
 echo "Please move your tak server zip file into ~/tak-server"
-read -p "THen press any key to begin install..."
+read -p "Then press any key to begin install..."
 
 #Install TAK Server
 ./scripts/setup.sh
