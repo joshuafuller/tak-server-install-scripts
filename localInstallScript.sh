@@ -28,7 +28,6 @@ sudo systemctl enable docker
 sudo groupadd docker
 sudo usermod -aG docker tak
 
-su - tak
 echo " "
 echo "Cloning CloudRF Github Docker Install Project..."
 cd ~
