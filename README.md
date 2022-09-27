@@ -9,11 +9,10 @@
 
 `git clone https://github.com/atakhq/tak-server-install-scripts.git`
 
-2. Move into the scripts folder that was just cloned from github, make the script files executable, and run the local install script. (linux prevents files from being executable by default for security)
+2. Move into the scripts folder that was just cloned from github, make the script files executable, and run the local install script. 
+(linux prevents files from being executable by default for security)
 
-`cd tak-server-install-scripts/`
-
-`sudo chmod +x *`
+`cd tak-server-install-scripts/ && sudo chmod +x *`
 
 Normal Install Script:
 `sudo ./localInstallScript.sh`
@@ -43,13 +42,10 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 `git clone https://github.com/atakhq/tak-server-install-scripts.git`
 
 
-4. Move into the scripts folder that was just cloned from github, make the script files executable, and run the first script. (linux prevents files from being executable by default for security)
+4. Move into the scripts folder that was just cloned from github, make the script files executable, and run the first script. 
+(linux prevents files from being executable by default for security)
 
-`cd tak-server-install-scripts/`
-
-`sudo chmod +x *`
-
-`./installScript1.sh`
+`cd tak-server-install-scripts/ && sudo chmod +x * && ./installScript1.sh`
 
 
 5. The first install script will now prompt you to reboot when its done, do it.
