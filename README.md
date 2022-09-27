@@ -1,6 +1,24 @@
-# TAK Server 15min Install Script Package
+# TAK Server 15min Install Script Packages
 ## You should be able to get a TAK server up and running within 15mins of starting these scripts (assuming you already have the TAK Server ZIP downloaded and stored on google drive or your local machine)
 
+
+# LOCALLY HOSTED INSTALL
+
+1. Clone this repo
+
+`git clone https://github.com/atakhq/tak-server-install-scripts.git`
+
+2. Move into the scripts folder that was just cloned from github, make the script files executable, and run the local install script. (linux prevents files from being executable by default for security)
+
+`cd tak-server-install-scripts/`
+
+`sudo chmod +x *`
+
+`sudo ./localInstall.sh`
+
+
+
+# SERVER INSTALL (CLOUD)
 1. Buy a VPS from somewhere online - UBUNTU 20.04LTS
 
 2. SSH into the VPS as root (replace 192.168.1.1 with your VPS Server IP)
