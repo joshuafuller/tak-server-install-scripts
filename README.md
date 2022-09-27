@@ -3,7 +3,7 @@
 ## You should be able to get a TAK server up and running within 15mins of starting these scripts (assuming you already have the TAK Server ZIP downloaded and stored on google drive or your local machine)
 
 
-# LOCALLY HOSTED INSTALL
+# LOCALLY HOSTED INSTALL (Ubuntu 20.04 & ARM Builds like RPI/BPI)
 
 1. Clone this repo
 
@@ -15,12 +15,15 @@
 
 `sudo chmod +x *`
 
+Normal Install Script:
 `sudo ./localInstallScript.sh`
 
+RPI/BPI Install Script:
+`sudo ./localInstallScriptARM.sh`
 
 
 
-# SERVER INSTALL (CLOUD)
+# SERVER INSTALL (CLOUD) (Ubuntu 20.04 / CentOS7)
 
 1. Buy a VPS from somewhere online - UBUNTU 20.04LTS
 
