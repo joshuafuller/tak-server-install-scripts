@@ -36,7 +36,8 @@ echo "Done, updating script permissions"
 sudo chmod +x ~/tak-server/scripts/setup.sh
 
 cd ~/tak-server
-printf "Please move your tak server zip file into $(pwd), and press enter to resume...\n"
+echo "Please move your tak server zip file into ~/tak-server"
+read -p "THen press any key to begin install..."
 
 #Install TAK Server
 ./scripts/setup.sh
