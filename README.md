@@ -14,7 +14,7 @@
 
 `sudo chmod +x *`
 
-`sudo ./localInstall.sh`
+`sudo ./localInstallScript.sh`
 
 
 
