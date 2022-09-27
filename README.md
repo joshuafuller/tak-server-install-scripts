@@ -43,17 +43,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 `cd tak-server-install-scripts/ && sudo chmod +x * && ./installScript1.sh`
 
 
-5. The first install script will now prompt you to reboot when its done, do it.
+5. The first install script will now prompt you to Login as tak superuser and run the final script.
 
-
-6. Connect back to your VPS and login as tak user with SU privs(replace 192.168.1.1 with your VPS Server IP)
-
-
-`ssh tak@192.168.1.1`
 
 `su - tak`
-
-
-7. Run installScript2.sh to complete the install
 
 `. installScript2.sh`
