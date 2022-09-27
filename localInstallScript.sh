@@ -42,13 +42,16 @@ sudo chmod +x ~/tak-server/scripts/setup.sh
 #Install TAK Server
 cd /home/tak/tak-server
 echo " "
-echo "*********************************************************************************************"
-echo "Please move your tak server zip file into $(pwd), then login as tak superuser with:"
-echo "tak - su"
+echo "*****************************************************************************"
+echo "Please move your tak server zip file into $(pwd)"
+echo " "
+echo "Then login as tak superuser with:"
+echo "su - tak"
 echo " "
 echo "Once Logged in, enter the following command to being the docker install script:"
 echo "cd tak-server && ./scripts/setup.sh"
-echo "*********************************************************************************************"
+echo " "
+echo "*******************************************************************************"
 read -p " "
 
 
