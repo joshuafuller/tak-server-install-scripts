@@ -49,7 +49,7 @@ echo " "
 echo "Once Logged in, enter the following command to being the docker install script:"
 echo "cd tak-server && ./scripts/setup.sh"
 echo "*********************************************************************************************"
-read -p
+read -p " "
 
 
 
