@@ -47,6 +47,8 @@ EOF
 
                         echo "Setup Complete:"
                         echo "TAK Server should now auto start on server reboots" 
+                        echo ""
+                        echo ""
                         break
                 ;;
                 [Nn]* )
