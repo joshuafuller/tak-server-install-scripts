@@ -52,8 +52,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 `. installScript2.sh`
 
-# Enable TAK Server Docker Auto-Start on existing installations
+# Enable Auto-Start on Server Reboots (existing installations)
 
-Download and run `auto-start.sh`
+Download and run `auto-start-tak.sh`
 
 New Installations will prompt you if you want this enabled and do it for you under a new service called "tak-server-docker"
