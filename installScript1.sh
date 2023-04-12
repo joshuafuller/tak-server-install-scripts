@@ -7,7 +7,7 @@ usermod -aG sudo tak
 sudo apt-get update -y
 
 #Install Deps
-sudo apt-get install unzip wget git nano openssl net-tools -y
+sudo apt-get install unzip zip wget git nano openssl net-tools -y
 
 #Install Docker
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
